@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 function App() {
   // Orientation state
@@ -9,7 +9,7 @@ function App() {
   // Typing text aanimation state
   const [displayText, setDisplayText] = useState("");
   const fullText =
-    "BUILDING CHURCHES IN OUR YOUTH | BUILDING CHURCHES IN OUR YOUTH | ";
+    "BUILDING CHURCHES IN OUR YOUTH | BUILDING CHURCHES IN OUR YOUTH";
 
   // Video reference → kasih tipe HTMLVideoElement
   const videoRef = useRef<HTMLVideoElement | null>(null);
